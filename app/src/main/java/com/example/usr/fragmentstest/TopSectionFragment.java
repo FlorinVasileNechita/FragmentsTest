@@ -53,15 +53,12 @@ public class TopSectionFragment extends Fragment {
                     }
                 }
         );
-
-
         return view;
     }
 
 
     public void buttonClicked(View view) {
-
+        activityCommander.createMeme(topTextInput.getText().toString(), bottomTextInput.getText().toString());
     }
-
 
 }
